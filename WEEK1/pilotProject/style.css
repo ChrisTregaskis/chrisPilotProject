@@ -6,7 +6,7 @@ body {
 }
 
 
-/* ====== NAV TOP ====== */
+/* ====== NAV TOP & STICKY ====== */
 
 
 
@@ -23,8 +23,8 @@ nav ul {
     margin: 0 170px;
 }
 
-.navTop li,
-.navTop form {
+nav li,
+nav form {
     float: right;
     list-style: none;
     margin-right: 10px;
@@ -32,6 +32,9 @@ nav ul {
 
 nav a {
     text-decoration: none;
+}
+
+.navTop a {
     color: #A2A2A2;
 }
 
@@ -56,4 +59,33 @@ input {
     text-transform: uppercase;
     margin-right: 10px;
 }
+
+/* ====== NAV STICKY ====== */
+
+.navSticky {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px 10px;
+    letter-spacing: .6px;
+}
+
+.navSticky a {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
