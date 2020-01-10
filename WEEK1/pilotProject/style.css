@@ -64,7 +64,7 @@ input {
 
 .navSticky {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 550;
     background-color: #fff;
     overflow: auto;
     padding: 20px 10px;
@@ -73,7 +73,11 @@ input {
 
 .navSticky a {
     color: #000;
+    text-align: center;
+    margin-right: 10px;
 }
+
+
 
 
 
