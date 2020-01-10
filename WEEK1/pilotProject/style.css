@@ -5,16 +5,18 @@ body {
     font-family: sans-serif;
 }
 
+
 /* ====== NAV TOP ====== */
+
+
 
 .navTop {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: bold;
     background-color: #F8F8F8;
-    text-decoration: none;
-    color: #A2A2A2;
     overflow: auto;
     padding: 20px 10px;
+    letter-spacing: .6px;
 }
 
 nav ul {
@@ -26,4 +28,9 @@ nav ul {
     float: right;
     list-style: none;
     margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #A2A2A2;
 }
