@@ -6,3 +6,19 @@ body {
 }
 
 /* ====== NAV TOP ====== */
+
+.navTop {
+    font: 14px;
+    background-color: #F8F8F8;
+    text-decoration: none;
+    color: #A2A2A2;
+    overflow: auto;
+    padding: 20px 10px;
+}
+
+.navTop li,
+.navTop form {
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+}
