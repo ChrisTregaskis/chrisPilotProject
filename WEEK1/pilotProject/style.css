@@ -34,3 +34,29 @@ nav a {
     text-decoration: none;
     color: #A2A2A2;
 }
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #F8F8F8;
+}
+
+.no-outline {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-weight: bold;
+/*    letter-spacing: .6px;*/
+    text-decoration: none;
+    color: #A2A2A2;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+form {
+    
+}
