@@ -71,20 +71,27 @@ input {
 .navSticky a {
     color: #3b3442;
     text-align: center;
-/*    margin-right: 10px;*/   
 }
 
 .logo {
     display: inline-block;
     margin: 0 0 0 8%;
-    background-color: red;
+}
+
+.navSticky ul {
+    margin: 0;
 }
 
 .navSticky li {
-    border: 2px solid #3b3442;
     position: relative;
-    padding: 0 14px;
-    height: 50px;
+    padding: 14px 14px;
+    height: 48px;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.navSticky-home {
+    border: 2px solid #3b3442;
 }
 
 .navSticky-megamenu {
@@ -95,7 +102,7 @@ input {
     font-weight: 550;
     background-color: #fff;
     overflow: auto;
-    padding: 0 10px;
+    padding: 0;
     letter-spacing: .6px;
 }
 
