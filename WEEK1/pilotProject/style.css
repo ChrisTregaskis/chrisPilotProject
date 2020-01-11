@@ -19,8 +19,9 @@ body {
     letter-spacing: .6px;
 }
 
-nav ul {
-    margin: 0 170px;
+.navTop ul {
+    margin: 0 8%;
+    padding: 0;
 }
 
 nav li,
@@ -46,6 +47,7 @@ input {
     background-color: #F8F8F8;
 }
 
+
 .no-outline {
     outline: none;
 }
@@ -63,31 +65,39 @@ input {
 /* ====== NAV STICKY ====== */
 
 .navSticky {
-    font-size: 16px;
-    font-weight: 550;
-    background-color: #fff;
     overflow: auto;
-/*    padding: 20px 10px;*/
-    letter-spacing: .6px;
-    
 }
 
 .navSticky a {
-    color: ##3b3442;
+    color: #3b3442;
     text-align: center;
-    margin-right: 10px;
-    height: 50px;
-/*    padding: 0 14px;*/
-    border: 2px solid #3b3442;
-    position: relative;
-    
+/*    margin-right: 10px;*/   
 }
 
 .logo {
     display: inline-block;
-    margin: 0 170px;
+    margin: 0 0 0 8%;
+    background-color: red;
 }
 
+.navSticky li {
+    border: 2px solid #3b3442;
+    position: relative;
+    padding: 0 14px;
+    height: 50px;
+}
+
+.navSticky-megamenu {
+    margin: 0 8% 0 0;
+    width: 930px;
+    float: right;
+    font-size: 16px;
+    font-weight: 550;
+    background-color: #fff;
+    overflow: auto;
+    padding: 0 10px;
+    letter-spacing: .6px;
+}
 
 
 
