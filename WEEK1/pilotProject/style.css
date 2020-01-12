@@ -100,7 +100,7 @@ button {
     padding: 14px 14px;
     height: 48px;
     margin-top: 0;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .navSticky-home {
@@ -109,7 +109,7 @@ button {
 
 .navSticky-megamenu {
     margin: 0 8% 0 0;
-    width: 695px;
+    width: 685px;
     float: right;
     font-size: 16px;
     font-weight: 550;
