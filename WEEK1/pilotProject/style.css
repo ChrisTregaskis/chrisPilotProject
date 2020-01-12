@@ -1,6 +1,8 @@
 * { box-sizing: border-box; }
 
-@-ms-viewport { width: device-width; }
+@-ms-viewport { 
+    width: device-width; 
+}
 
 body {
     margin: 0;
@@ -9,7 +11,6 @@ body {
 
 
 /* ====== NAV TOP & STICKY ====== */
-
 
 
 .navTop {
@@ -41,7 +42,8 @@ nav a {
     color: #A2A2A2;
 }
 
-input {
+input,
+.search-img {
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
@@ -49,6 +51,14 @@ input {
     background-color: #F8F8F8;
 }
 
+button {
+    padding: 0;
+    border-style: none;
+}
+
+.search-img {
+    color: #A2A2A2;
+}
 
 .no-outline {
     outline: none;
@@ -63,6 +73,7 @@ input {
     text-transform: uppercase;
     margin-right: 10px;
 }
+
 
 /* ====== NAV STICKY ====== */
 
@@ -98,7 +109,7 @@ input {
 
 .navSticky-megamenu {
     margin: 0 8% 0 0;
-    width: 730px;
+    width: 695px;
     float: right;
     font-size: 16px;
     font-weight: 550;
