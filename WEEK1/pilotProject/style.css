@@ -1,5 +1,7 @@
 * { box-sizing: border-box; }
 
+@-ms-viewport { width: device-width; }
+
 body {
     margin: 0;
     font-family: Helvetica Neue;
